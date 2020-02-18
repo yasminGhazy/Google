@@ -72,11 +72,23 @@ div.dropdown input {
     border: 0px;
 }
 
-div.center img {
+.center img {
     width: 350px;
     height: 220px;
 }
 
+.center {
+    text-align: center;
+}
+
 .fa-youtube {
     color: red;
+}
+
+#footerL {
+    float: left;
+}
+
+#footerR {
+    float: right;
 }
