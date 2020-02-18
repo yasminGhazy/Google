@@ -1,69 +1,84 @@
-
-  .dropdown
-  {
-    position: relative; 
-     display: inline-block;
-  }
-/* Dropdown Content */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-    
+.dropdown {
+    position: relative;
+    display: block;
+    float: left;
 }
+
+
+/* Dropdown Content */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
 
 /* Links inside the dropdown */
-.dropdown-content input {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: inline-block;
-  
-}
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
 
-#header
-{
+.dropdown-content input {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#header {
     text-align: right;
     margin-top: 50px;
 }
- a {
-    margin: 10px;color: black;
-     text-decoration: none;
- }
-div.dropdown input{
-    width: 25px;height: 25px;
+
+a {
+    margin: 10px;
+    color: black;
+    text-decoration: none;
 }
-div.dropdown-content input{
-    float: left;
+
+div.dropdown input {
+    width: 25px;
+    height: 25px;
 }
-div#header button
-{
+
+#header button {
     margin: 10px;
     background-color: blue;
-     border: 0px;
-     width: auto;
-     height: 25px;
-     color: white;
-     border-radius: 10%;
+    border: 0px;
+    width: auto;
+    height: 25px;
+    color: white;
+    border-radius: 10%;
 }
-div.center input {
+
+.text {
     width: 600px;
     height: 45px;
     border-radius: 25px;
     border-style: groove;
 }
-div.center button {
+
+.btn {
     margin: 10px;
     height: 30px;
     width: auto;
     border: 0px;
 }
-div.center img{
-    width:350px;
-    height:220px;
+
+div.center img {
+    width: 350px;
+    height: 220px;
+}
+
+.fa-youtube {
+    color: red;
 }
