@@ -44,11 +44,6 @@ a {
     text-decoration: none;
 }
 
-#dropbtn {
-    width: 25px;
-    height: 25px;
-}
-
 #signin {
     margin: 10px;
     background-color: blue;
@@ -98,4 +93,20 @@ a {
     padding: 10px;
     min-width: 50px;
     text-align: center;
+}
+
+#dropbtn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 0;
+    background-color: white;
+}
+
+.fa-bars {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
 }
